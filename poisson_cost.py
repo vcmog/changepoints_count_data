@@ -1,8 +1,8 @@
-from ruptures.costs import BaseCost
 import numpy as np
 from math import log
 import matplotlib.pyplot as plt
 import ruptures as rpt
+from ruptures.base import BaseCost
 
 
 class CostPoisson(BaseCost):
